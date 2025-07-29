@@ -29,10 +29,10 @@
      inkscape:zoom="0.68862935"
      inkscape:cx="397.16576"
      inkscape:cy="561.25984"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -43,7 +43,7 @@
      id="layer1">
     <path
        id="rect1"
-       style="stroke-width:0.264583;fill:#008080"
-       d="M 40.727036,116.41785 H 166.3661 v 17.67399 H 40.727036 Z" />
+       style="fill:#008080;stroke-width:0.428346"
+       d="m 25.74256,117.95472 h 159.45019 v 36.50064 H 25.74256 Z" />
   </g>
 </svg>
