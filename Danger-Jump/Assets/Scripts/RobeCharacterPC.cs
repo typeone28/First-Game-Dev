@@ -15,7 +15,14 @@ public class RobeCharacterPC : MonoBehaviour
     // Update is called once per frame (Best for input)
     private void Update()
     {
-        body.linearVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.linearVelocityY);
+        float horizontalInput = Input.GetAxis("Horizontal");
+        body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocityY);
+
+        // Flips Sprite right and left
+        if (horizontalInput > 0.01f)
+            transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+        else if (horizontalInput < -0.01f)
+            transform.localScale = new Vector3(-0.4f, 0.4f, 0.4f);
 
         // Loop to check for jump
         if (Input.GetKey(KeyCode.Space))
